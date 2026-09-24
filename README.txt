@@ -12,8 +12,8 @@ To install a module : pip install 'module name'
 When you've download module and script, you need to change the file named : "DefaultStatsAPI.txt" in your game files.
 Change the PacketSendRate to 30. 
 After that, save the modification.
-You can make a shortcut of the .bash on your desktop to lunch the tracker easily.
-When the you lunch the .bash write your in-game pseudo.
+You can make a shortcut of the .bat on your desktop to lunch the tracker easily.
+When the you lunch the .bat write your in-game pseudo.
 
 Now you can start the game and enjoy the tracker.
 
