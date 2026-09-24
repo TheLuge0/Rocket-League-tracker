@@ -461,8 +461,6 @@ QListWidget QScrollBar::sub-page:vertical {
 }
 """
 
-
-# player = Player("Theluge", "Grand Champion III", "SSL (2204)", 23, 15840)
 # Création de l'application
 app = QtWidgets.QApplication(sys.argv)
 
@@ -496,6 +494,3 @@ second_window.show()
 
 # Fermeture de l'application
 sys.exit(app.exec())
-
-# Gérer le probleme des threads (double print quand je dit mon num de team)
-# Pourquoi pas ajouter un popup pour donner mon pseudo au lancement de l'application 
