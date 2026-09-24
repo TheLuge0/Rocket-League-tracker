@@ -13,13 +13,13 @@ When you've download module and script, you need to change the file named : "Def
 Change the PacketSendRate to 30. 
 After that, save the modification.
 You can make a shortcut of the .bat on your desktop to lunch the tracker easily.
-When the you lunch the .bat write your in-game pseudo.
+When you lunch the .bat write your in-game pseudo.
 
 Now you can start the game and enjoy the tracker.
 
 Often issues :
--  If the tracker doesn't find the rank, it's because of the Tracker Network API.
--  Sometime, players aren't in the database of Tracker Network
+-  If the tracker doesn't find any information about a player, it's because of Tracker Network API which block requests.
+-  Sometime, players aren't in the database of Tracker Network.
 -  If the tracker doesn't work, look at the WebPort number in the "DefaultStatsAPI.txt" and replace in the api.py the URI : "ws://127.0.0.1:{WebPortnumber}"
 
 """
