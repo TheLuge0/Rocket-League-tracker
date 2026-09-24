@@ -129,6 +129,7 @@ def rom_to_num(str: str) -> str:
 
 
 def get_platform(platform_brut):
+     """Fonction qui donne la platform dans la bonne forme pour le lien de l'api"""
     platform = platform_brut.split("|")[0].lower()
     id_joueur = platform_brut.split("|")[1]
 
@@ -139,8 +140,3 @@ def get_platform(platform_brut):
         platform = "psn"
 
     return platform, id_joueur
-
-
-if __name__ == "__main__":
-    player = parser_rl_tracker("TheLuge", "epic", "TheLuge")
-    print(player.pseudo, player.rank, player.peak, player.season, player.wins)
