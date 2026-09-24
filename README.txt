@@ -22,4 +22,9 @@ Often issues :
 -  Sometime, players aren't in the database of Tracker Network.
 -  If the tracker doesn't work, look at the WebPort number in the "DefaultStatsAPI.txt" and replace in the api.py the URI : "ws://127.0.0.1:{WebPortnumber}"
 
+Informations about the tracker :
+Once a player has been detected, they will not be detected a second time.
+You can manually increase or decrease the counter of wins/looses with a right/left click
+You can play with only the counter or only the tracker
+
 """
