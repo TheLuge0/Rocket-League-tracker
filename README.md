@@ -9,19 +9,19 @@ Requirement to use the tracker :
 > install a module : pip install 'module name'
 
 When you've download module and script, you need to change the file named : "DefaultStatsAPI.txt" in your game files.
-Change the PacketSendRate to 30 or less if you want. (Min 1)
+Change the PacketSendRate to 30 (or less if you want, min 1).
 
 You can make a shortcut of the .bat on your desktop to lunch the tracker easily.
-When you lunch the .bat write your in-game pseudo.
+When you lunch the .bat write your **in-game pseudo**.
 
 Now you can start the game and enjoy the tracker.
 
 Often issues :
 -  If the tracker doesn't find any information about a player, it's because of Tracker Network API which block requests.
 -  Sometime, players aren't in the database of Tracker Network.
--  If the tracker doesn't work, look at the WebPort number in the "DefaultStatsAPI.txt" and replace in the api.py the URI : "ws://127.0.0.1:{WebPortnumber}"
+-  If the tracker doesn't work, look at the WebPort number in the "DefaultStatsAPI.txt" and replace in the "api.py" the URI : "ws://127.0.0.1:{WebPortnumber}"
 
-Informations about the tracker :
+About the tracker :
 - Once a player has been detected, they will not be detected a second time.
 - You can manually increase or decrease the counter of wins/looses with a right/left click
 - You can play with only the counter or only the tracker
